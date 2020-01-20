@@ -1,7 +1,7 @@
-package org.mapstruct.example.kotlin
+package online.colaba
 
-import org.mapstruct.example.kotlin.converter.PersonConverter
-import org.mapstruct.example.kotlin.model.Person
+import online.colaba.converter.PersonConverter
+import online.colaba.model.Person
 import org.mapstruct.factory.Mappers
 import java.time.LocalDate
 

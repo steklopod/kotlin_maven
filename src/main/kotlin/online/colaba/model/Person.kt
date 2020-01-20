@@ -1,4 +1,4 @@
-package org.mapstruct.example.kotlin.model
+package online.colaba.model
 
 import java.time.LocalDate
 

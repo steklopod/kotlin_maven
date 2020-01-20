@@ -1,10 +1,10 @@
-package org.mapstruct.example.kotlin.converter
+package online.colaba.converter
 
 import org.mapstruct.InheritInverseConfiguration
 import org.mapstruct.Mapper
 import org.mapstruct.Mapping
-import org.mapstruct.example.kotlin.dto.PersonDto
-import org.mapstruct.example.kotlin.model.Person
+import online.colaba.dto.PersonDto
+import online.colaba.model.Person
 
 @Mapper
 interface PersonConverter {
