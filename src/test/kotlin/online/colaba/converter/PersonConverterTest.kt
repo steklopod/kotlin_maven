@@ -1,7 +1,7 @@
 package online.colaba.converter
 
-import online.colaba.dto.PersonDto
 import online.colaba.model.Person
+import online.colaba.model.PersonDto
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test

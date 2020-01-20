@@ -7,7 +7,7 @@ import java.time.LocalDate
 
 fun main(args: Array<String>) {
 
-    val converter = Mappers.getMapper(PersonConverter::class.java) // or PersonConverterImpl()
+    val converter = Mappers.getMapper(PersonConverter::class.java)
 
     val person = Person(
         "Samuel",

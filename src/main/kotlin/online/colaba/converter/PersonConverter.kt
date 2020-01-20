@@ -1,10 +1,10 @@
 package online.colaba.converter
 
+import online.colaba.model.Person
+import online.colaba.model.PersonDto
 import org.mapstruct.InheritInverseConfiguration
 import org.mapstruct.Mapper
 import org.mapstruct.Mapping
-import online.colaba.dto.PersonDto
-import online.colaba.model.Person
 
 @Mapper
 interface PersonConverter {
