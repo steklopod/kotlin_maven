@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 import org.mapstruct.factory.Mappers
 import java.time.LocalDate
 
-internal class PersonConverterTest {
+internal class UserConverterTest {
     private val person = Person(
         "Samuel",
         "Jackson",
@@ -25,7 +25,7 @@ internal class PersonConverterTest {
 
     @Test
     fun testConvertToDto() {
-        val converter = Mappers.getMapper(PersonConverter::class.java)
+        val converter = Mappers.getMapper(UserConverter::class.java)
         val personDto = converter.convertToDto(person)
 
         assertNotNull(personDto)
@@ -37,7 +37,7 @@ internal class PersonConverterTest {
 
     @Test
     fun testConvertToModel() {
-        val converter = Mappers.getMapper(PersonConverter::class.java)
+        val converter = Mappers.getMapper(UserConverter::class.java)
         val person = converter.convertToModel(personDto)
 
         assertNotNull(person)

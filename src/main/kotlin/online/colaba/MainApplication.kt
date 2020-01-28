@@ -1,13 +1,12 @@
 package online.colaba
 
-import online.colaba.converter.PersonConverter
+import online.colaba.converter.UserConverter
 import online.colaba.model.Person
 import org.mapstruct.factory.Mappers
 import java.time.LocalDate
 
 fun main(args: Array<String>) {
-
-    val converter = Mappers.getMapper(PersonConverter::class.java)
+    val converter = Mappers.getMapper(UserConverter::class.java)
 
     val person = Person(
         "Samuel",

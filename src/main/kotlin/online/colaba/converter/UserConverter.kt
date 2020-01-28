@@ -7,7 +7,7 @@ import org.mapstruct.Mapper
 import org.mapstruct.Mapping
 
 @Mapper
-interface PersonConverter {
+interface UserConverter {
 
     @Mapping(source = "phoneNumber", target = "phone")
     fun convertToDto(person: Person): PersonDto
