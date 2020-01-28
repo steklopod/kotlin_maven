@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 import org.mapstruct.factory.Mappers
 import java.time.LocalDate
 
- class PersonConverterTest {
+internal class PersonConverterTest {
     private val person = Person(
         "Samuel",
         "Jackson",
