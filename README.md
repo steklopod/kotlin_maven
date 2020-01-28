@@ -1,4 +1,4 @@
-# MapStruct with Kotlin
+# MapStruct with Kotlin ![Backend CI](https://github.com/steklopod/mapstruct-kotlin-maven/workflows/Backend%20CI/badge.svg)
 
 Example usage of MapStruct and Kotlin with JDK-8 Bytecode. This is achieved by using the [Kotlin Annotation Processing Tool (KAPT)](https://kotlinlang.org/docs/reference/kapt.html).
 

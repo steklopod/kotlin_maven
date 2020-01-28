@@ -12,9 +12,6 @@ jobs:
         with:
           java-version: 11
 
-#      - name: Change gradlew wrapper permissions
-#        run: chmod +x ./gradlew
-
       - name: BUILD and TEST with Maven
         run: mvn install
 
