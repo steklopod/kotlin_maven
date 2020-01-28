@@ -4,10 +4,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>online.colaba</groupId>
-    <artifactId>mapstruct-kotlin</artifactId>
+    <artifactId>kotlin_maven</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>Sample application demonstration the use of MapStruct and Kotlin</name>
+    <name>API server with kotlin</name>
 
     <parent>
         <version>2.2.4.RELEASE</version>
