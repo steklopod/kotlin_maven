@@ -23,8 +23,8 @@ jobs:
 #        env:
 #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Artifact [backend]
+      - name: Artifact [kotlin-maven-1.0]
         uses: actions/upload-artifact@v1
         with:
-          name: mapstruct-kotlin-1.0.jar
-          path: target/mapstruct-kotlin-1.0.jar
+          name: kotlin-maven-1.0.0.jar
+          path: target/kotlin-maven-1.0.jar
